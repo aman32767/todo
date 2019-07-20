@@ -8,7 +8,7 @@ const taskInput = document.querySelector("#task");
 // Load all event listeners
 loadEventListeners();
 
-// Load all event listeners
+// Load all event listeners in one function
 function loadEventListeners() {
   // DOM Load event
   document.addEventListener("DOMContentLoaded", getTasks);
